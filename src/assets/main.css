@@ -1,0 +1,26 @@
+@import './base.css';
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainn{
+  
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+.grid
+ {
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(3,400px);  
+  grid-template-rows: repeat(3,350px); 
+  grid-gap:50px 70px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin: 50px;
+}
